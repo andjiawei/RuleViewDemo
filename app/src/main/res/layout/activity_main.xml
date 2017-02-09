@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaov.ruleviewdemo.MainActivity">
+
+    <com.xiaov.ruleview.ScrollRuleView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:count="100"
+        app:fatLine="10"
+        app:thinLine="8"
+        app:gap="30"
+        app:length="80"
+        >
+
+    </com.xiaov.ruleview.ScrollRuleView>
+
+    <com.xiaov.ruleview.ScrollRuleView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="300dp"
+        app:count="50"
+        app:fatLine="6"
+        app:thinLine="4"
+        app:gap="10"
+        app:length="30"
+        >
+
+    </com.xiaov.ruleview.ScrollRuleView>
+
+</RelativeLayout>

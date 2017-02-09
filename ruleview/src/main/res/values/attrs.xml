@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollRuleView">
+        <attr name="gap" format="integer" /><!--尺子刻度间距-->
+        <attr name="count" format="integer" /><!--总刻度-->
+        <attr name="fatLine" format="integer" /><!--粗线宽-->
+        <attr name="thinLine" format="integer" /><!--细线宽-->
+        <attr name="length" format="integer" /><!--三角形边长-->
+    </declare-styleable>
+</resources>
